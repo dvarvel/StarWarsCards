@@ -1,0 +1,15 @@
+figure {
+	border: 1px lightgrey solid;
+}
+
+img {
+	width: 100%;
+}
+
+figcaption {
+	padding: 5px;
+}
+
+figcaption p:first-child {
+	font-weight: bold;
+}
