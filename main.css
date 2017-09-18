@@ -1,16 +1,22 @@
 nav {
 	background-color: orange;
 	width: 100%;
-}
-
-figure {
-	border: 1px lightgrey solid;
+	margin-bottom: 20px;
 }
 
 img {
 	width: 100%;
 }
 
-figcaption p:first-child {
+.card {
+	border: 1px lightgrey solid;
+	margin-bottom: 10px;
+}
+
+div p:nth-child(2) {
 	font-weight: bold;
+}
+
+div p {
+	padding-left: 15px;
 }
